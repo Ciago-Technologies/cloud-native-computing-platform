@@ -1,0 +1,6 @@
+apiVersion: cncp.ciago.dev/v1alpha1
+kind: ApplicationManifest
+metadata:
+  name: example-app
+spec:
+  execution: local-preferred

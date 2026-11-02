@@ -1,0 +1,32 @@
+# Rust
+/target/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node / TypeScript
+node_modules/
+dist/
+build/
+.turbo/
+
+# Go
+*.test
+
+# Infrastructure state and local overrides
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!.example.tfvars
+
+# Local environment and editor files
+.env
+.env.*
+!.env.example
+.DS_Store
+.idea/
+.vscode/

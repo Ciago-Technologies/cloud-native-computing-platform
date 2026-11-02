@@ -1,0 +1,9 @@
+[workspace]
+members = [
+    "apps/cloud-os-shell",
+    "desktop",
+    "scheduler",
+    "storage",
+    "sdk/rust",
+]
+resolver = "2"
